@@ -139,8 +139,3 @@ This project is licensed under the MIT License.
 **Sudhanshu Shukla**
 - GitHub: [@Sudhanshu-shukl](https://github.com/Sudhanshu-shukl)
 - Portfolio: [sudhanshu-shukl.github.io](https://sudhanshu-shukl.github.io/portfolio)
-Commit 20 at 2025-10-12 23:49:57
-
-Commit 21 at 2025-10-12 23:49:57
-
-Commit 22 at 2025-10-12 23:49:57
