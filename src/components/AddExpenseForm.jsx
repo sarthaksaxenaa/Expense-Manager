@@ -8,19 +8,15 @@ const AddExpenseForm = ({ onClose }) => {
         amount: '',
         category: categories[0],
         date: new Date().toISOString().split('T')[0],
-        note: ''
+        note: ' '
     })
     const [isLoading, setIsLoading] = useState(false)
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        if (!formData.amount || parseFloat(formData.amount) <= 0) {
-            return
-        }
-
+        if (!formData.amount || parseFloat(formData.amount) <= 0) return
         setIsLoading(true)
-        await new Promise(resolve => setTimeout(resolve, 300))
-
+        await new Promise(r => setTimeout(r, 300))
         addExpense(formData)
         onClose()
     }
